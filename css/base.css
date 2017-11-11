@@ -1,0 +1,177 @@
+/************************************************
+ *												*
+ *	Base .css file for my webpage jloefgren.com *
+ *	Created and maintained by the owner			*
+ *	For any inquiries please email:				*
+ *							admin@jloefgren.com *
+ *												*
+ ************************************************/
+body {
+    background-image: url(../img/BG.png);
+	margin: 0px;
+	margin-bottom: -200px;
+}
+
+
+.footer {
+	padding-top:64px!important;
+	padding-bottom:64px!important;
+	background-color: black;
+	color: white;
+}
+.footer-box {
+	float:left;
+	width: 33.3%;
+}
+
+a:link {
+	color: inherit;
+	text-decoration: inherit;
+}
+
+.footertxt {
+	text-align: center;
+	color: white;
+	font-size: 15px;
+	text-decoration: none;
+	display: block;
+}
+
+.link-txt {
+	color: red;
+	
+}
+
+.navbar {
+	width:100%;
+	overflow:hidden;
+	background-color: black;
+	color: white;
+}
+.navbar-box {
+	float: left;
+	width: 50%;
+}
+
+.navbutton{
+	padding:16px 16px 16px;
+	float:left;
+	background-color:inherit;
+	color:inherit;
+	width:auto;
+	border:none;
+	outline:none;
+	display:block;
+	text-decoration: none;
+}
+
+.navbutton:hover{
+    background-color: red;
+}
+.footertxt:hover{
+	color: red;
+}
+
+.social {
+	float: right;
+	padding:12px 12px 8px;
+	background-color:inherit;
+	color:inherit;
+	width:auto;
+	border:none;
+	outline:none;
+	display:block;
+	text-decoration: none;
+}
+
+.container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 1000px;
+	/*background-color: #181818;*/
+}
+
+.body {
+	color: #8E8E8E;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+
+.spacedhead {
+	color: #8E8E8E;
+	text-align: center;
+	letter-spacing:4px;
+	font-size: 32px;
+}
+
+.subline {
+	color: #8E8E8E;
+	text-align: center;
+	font-size: 18px;
+}
+
+.highlight {
+	color: #7A0000;
+}
+
+.headline {
+	color: #8E8E8E;
+	text-align: center;
+	
+}
+
+.me {
+	position: absolute;
+    left: 15%;
+	top: 150px;
+	width: 25%;
+	border-radius: 50%;
+	border: 4px solid #8E8E8E;
+}
+
+.about-text {
+	text-align: center;
+	width: 40%;
+	position: relative;
+    left: 45%;
+	color: #8E8E8E;
+}
+
+.about-head {
+	text-align: center;
+	color: #8E8E8E;
+	font-size: 34px;
+}
+
+
+@media only screen and (max-width: 500px) {
+    .me {
+        position: absolute;
+		width: 30%;
+    	left: 7%;
+		top: 250px;
+    }
+	.about-text {
+	text-align: center;
+	width: 50%;
+	position: relative;
+    left: 45%;
+	color: #8E8E8E;
+	}
+	.navbar-box {
+		float: none;
+		width: 100%;
+		display: inline-block;
+	}
+	.footer-box {
+		float: none;
+		width: 100%;
+		display: inline-block;
+	}
+
+}
+
+

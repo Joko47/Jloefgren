@@ -1,0 +1,49 @@
+/************************************************
+ *												*
+ *	special .css file for the contact page		*
+ *  on my website jloefgren.com 				*
+ *	Created and maintained by the owner			*
+ *	For any inquiries please email:				*
+ *							admin@jloefgren.com *
+ *												*
+ ************************************************/
+
+/* Style for the textboxes */
+input[type=text], select, textarea {
+    width: 60%;
+    padding: 12px;
+    border: 1px solid #8E8E8E;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+/* Style for the submit button */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Style for hovering over the submit button */
+input[type=submit]:hover {
+    background-color: #077800;
+}
+
+/* Background for the from */
+.contact-container {
+    border-radius: 5px;
+    padding: 25px;
+} 
+
+/* Style for the text above the boxes */
+.inputs {
+	text-align: left;
+	width: 60%;
+	color: #8E8E8E;
+}

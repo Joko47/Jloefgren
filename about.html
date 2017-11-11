@@ -1,0 +1,110 @@
+<!doctype html>
+<title>About</title>
+
+<meta name="viewport" content="width=device.width, initial-scale=1">
+<link rel="stylesheet" href="css/base.css"> 
+<meta charset="utf-8">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+
+<html>
+<head>
+	<meta name="robots" content="noindex, nofollow"/>
+	 
+	
+</head>
+
+	
+<body>
+<!-- Navigation -->
+<nav class="navbar">
+	<!-- Navigation buttons -->
+	<section class="navbar-box">
+  		<a href="Index.html" class="navbutton">Home</a>
+  		<a href="projects.html" class="navbutton">Projects</a>
+  		<a href="about.html" class="navbutton">About</a>
+  		<a href="contact.html" class="navbutton">Contact</a>
+	</section>
+	
+	<!-- Social buttons -->
+	<section class="navbar-box">
+  		<a href="#GIT" class="navbutton social"><i class="fa fa-github fa-2x"></i></a>
+  		<a href="#LINKEDIN" class="navbutton social"><i class="fa fa-linkedin-square fa-2x"></i></a>
+		<a href="#TWITTER" class="navbutton social"><i class="fa fa-twitter fa-2x"></i></a>
+		<a href="#FACEBOOK" class="navbutton social"><i class="fa fa-facebook-official fa-2x"></i></a>
+	</section>
+		<!--
+  	<a href="#"><i class="fa fa-pinterest-p"></i></a>
+  	<a href="#"><i class="fa fa-flickr"></i></a>
+	-->
+</nav> 
+
+	
+
+
+	<!--Slide Show-->
+	<h2 class="spacedhead">About<span class="spacedhead highlight">.me</span></h2>
+	<section>
+	  <img class="me" src="img/PicOfMe1.jpg" alt="A picture of me">
+	  <img class="me" src="img/PicOfMe2.jpg" alt="A picture of me">
+
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>	
+	<p class="about-text">My name is John Doe, I am XX years old.</p>
+	<p class="about-text"><span>&nbsp;</span></p>
+	<p class="about-text"><span>Some stuff about me</span></p>
+	<p class="about-text"><span>&nbsp;</span></p>
+	<p class="about-text">More stuff about me</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	</section> 
+	
+	<script>
+	// Automatic Slideshow - change image every 3 seconds
+	var count = 0;
+	slide();
+	
+	function slide() {
+	    var i;
+	    var x = document.getElementsByClassName("me");
+	    for (i = 0; i < x.length; i++) {
+	       x[i].style.display = "none";
+	    }
+	    count++;
+	    if (count > x.length) {count = 1}
+	    x[count-1].style.display = "block";
+	    setTimeout(slide, 3000);
+	}
+	</script>
+
+	
+	
+ <!-- Footer -->
+<footer class="footer">
+	
+	<section class="footer-box">
+	
+  	<p class="footertxt"><a href="mailto:admin@jloefgren.com" target="_top">!ADMIN EMAIL HERE!</a></p>
+	</section>
+	
+	<section class="footer-box">
+  	<p></p>
+	</section>
+	
+	<section class="footer-box">
+  	<p class="footertxt"><a href="Index.html">
+		&copy; <script>new Date().getFullYear()>2010&&document.write(""+new Date().getFullYear());</script> - !WEBSITE NAME HERE!.
+  	</a></p>
+  	</section>
+	<section style="padding-bottom: 64px!important; width: 100%"></section>
+</footer> 
+	
+</body>
+</html>
