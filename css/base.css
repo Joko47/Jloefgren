@@ -7,24 +7,43 @@
  *												*
  ************************************************/
 body {
-    background-image: url(../img/BG.png);
+    background-image: url(/img/BG.png);
 	margin: 0px;
-	margin-bottom: -200px;
+	height:100%; /* needed for container min-height */
+}
+
+.wrapper {
+ position: absolute;
+ top: 0px;
+ left: 0;
+ bottom: 0px; 
+ right:  0;
+ overflow-y: scroll;
 }
 
 
-.footer {
+.footer {	
+	position: absolute;
+	width: 100%;
+	right: 0;
+  	bottom: 0;
+  	left: 0;
 	padding-top:64px!important;
 	padding-bottom:64px!important;
 	background-color: black;
 	color: white;
 }
+
 .footer-box {
 	float:left;
 	width: 33.3%;
 }
 
 a:link {
+	color: inherit;
+	text-decoration: inherit;
+}
+a:visited {
 	color: inherit;
 	text-decoration: inherit;
 }
@@ -88,7 +107,9 @@ a:link {
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
-	height: 1000px;
+	display: inline-block;
+	float: none;
+
 	/*background-color: #181818;*/
 }
 
@@ -114,7 +135,8 @@ a:link {
 }
 
 .highlight {
-	color: #7A0000;
+	/*color: #7A0000;*/
+	color: red;
 }
 
 .headline {
@@ -146,6 +168,12 @@ a:link {
 	font-size: 34px;
 }
 
+.centered {
+	text-align: center;
+}
+
+
+
 
 @media only screen and (max-width: 500px) {
     .me {
@@ -165,6 +193,9 @@ a:link {
 		float: none;
 		width: 100%;
 		display: inline-block;
+	}
+	.navbar {
+		height: 120px;
 	}
 	.footer-box {
 		float: none;
