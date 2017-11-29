@@ -2,7 +2,7 @@
 if(isset($_POST['email'])) {
      
     // CHANGE THE TWO LINES BELOW
-    $email_to = "john@SiteName.com";
+    $email_to = "admin@SiteName.com";
      
     $email_subject = "SiteName contact form submission";
      
@@ -96,7 +96,7 @@ mail($email_to, $email_subject, $email_message, $headers);
 			<!-- Social buttons -->
 			<section class="navbar-box">
   				<a href="https://github.com/alias/" class="navbutton social"><i class="fa fa-github fa-2x"></i></a>
-  				<a href="https://www.linkedin.com/in/JohnDoe/" class="navbutton social"><i class="fa fa-linkedin-square fa-2x"></i></a>
+  				<a href="https://www.linkedin.com/in/johnDoe/" class="navbutton social"><i class="fa fa-linkedin-square fa-2x"></i></a>
 				<a href="https://twitter.com/alias" class="navbutton social"><i class="fa fa-twitter fa-2x"></i></a>
 				<a href="https://www.facebook.com/alias" class="navbutton social"><i class="fa fa-facebook-official fa-2x"></i></a>
 			</section>
@@ -126,7 +126,7 @@ mail($email_to, $email_subject, $email_message, $headers);
 		<footer class="footer">
 	
 			<section class="footer-box">
-  				<p class="footertxt"><a href="mailto:admin@SiteName" target="_top">admin@SiteName</a></p>
+  				<p class="footertxt"><a href="mailto:admin@site.com" target="_top">admin@site.com</a></p>
 			</section>
 	
 			<section class="footer-box">
@@ -135,7 +135,7 @@ mail($email_to, $email_subject, $email_message, $headers);
 	
 			<section class="footer-box">
   				<p class="footertxt"><a href="index.html">
-				&copy; <script>new Date().getFullYear()>2010&&document.write(""+new Date().getFullYear());</script> - SiteName.
+				&copy; <script>new Date().getFullYear()>2010&&document.write(""+new Date().getFullYear());</script> - SiteName.com.
   				</a></p>
   			</section>
 			<section style="padding-bottom: 64px!important; width: 100%"></section>
